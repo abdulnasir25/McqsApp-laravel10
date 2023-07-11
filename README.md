@@ -2,6 +2,7 @@
 McqsApp-laravel10
 
 APP DESCRIPTION
+
 Through this app, you will be able to create an MCQ's based exam question paper. We have two users here, one is Admin and the 2nd one is a Student.
 
 Admin:
@@ -13,12 +14,13 @@ one of the choice/answer is correct.
 - can see the Exam Results for each student.
 
 Student:
-A student after login, can go to Exam section.
-If he agree for exam, he can start exam.
-A list of Questions with multiple choises (answers) shows in front of him one by one.
-One by One mean, that, a single question will appear to Submit and go to the Next question.
-After finishing the Questionaire, he can see has result.
+- needs to register and login before attempt the exam.
+- if agrees for the exam, he can start the exam.
+- will be able to see a Question with related multiple choises/answers (a single question will be shwon per page to submit).
+- can choose a correct answer for the question and can click Next button to move for the next one.
+- after finishing the Questionaire, can see has result in last for the same exam.
 
 A file SQL has also been uploaded. you can find inside the project.
 
-End..
+Thank you,
+
