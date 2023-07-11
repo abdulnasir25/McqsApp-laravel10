@@ -2,20 +2,15 @@
 McqsApp-laravel10
 
 APP DESCRIPTION
-
-I have added my custom AuthController for authentication.
-I added an Admin user by default via Seeder and set it as an admin.
-Then, I created two middleware, one is for Admin and another is for Student.
-So, admin can have its own Route group and Students has own.
-There are now two areas, I mean two dashboard, after login,
+Through this app, you will be able to create an MCQ's based exam question paper. We have two users here, one is Admin and the 2nd one is a Student.
 
 Admin:
-An Admin has access to create Questions, add Multiple answers to the question and choose
-one of it is correct.
-Admin also, can add Marks to every question he add.
-The multiple answers can be added Dynamically, and also can be removed as well.
-There is option for Admin to Edit & Delete Question with Answers.
-Admin can see the Exam Results submited from the Students side.
+- can perform a complete CRUD operation in this app.
+- in this crud, can add Questions with there related Multiple choices/answers and can set
+one of the choice/answer is correct.
+- can give Marks to every question he adds.
+- can add/remove choices/answers to the questions dynamically. (and these choices will be rendered randomly for every students - TODO)
+- can see the Exam Results for each student.
 
 Student:
 A student after login, can go to Exam section.
