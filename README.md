@@ -3,7 +3,7 @@ McqsApp-laravel10
 
 APP DESCRIPTION
 
-Through this app, you will be able to create an MCQ's based exam question paper. We have two users here, one is Admin and the 2nd one is a Student.
+Through this app, you will be able to create an MCQ's based exam question paper. We have two users here, one is Admin and the 2nd one is a User.
 
 Admin:
 - can perform a complete CRUD operation in this app.
